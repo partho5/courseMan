@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    background: linear-gradient(rgba(179, 179, 179, 0.1), rgba(179, 179, 179, 0.1)), url("../images/bg/bg10.jpg") no-repeat;
+    background-size: cover;
+}
+#menu-bar{
+    background: linear-gradient(rgba(179, 179, 179, 1), rgba(179, 179, 179, 1));
+    opacity: 0;
+}
+#menu-bar .nav li a{
+    color: #0000F0;
+}
+h1, #about-soft{
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+h1{
+    margin: 12% 18%;
+    font-size: 1.5em;
+    font-family: Roboto;
+    color: #de7140;
+}
+@media (min-width:320px) {
+    h1{
+        font-size: 4.5em;
+    }
+    #menu-bar{
+        background: linear-gradient(rgba(179, 179, 179, 0.1), rgba(179, 179, 179, 0.1));
+    }
+}
+#about-soft{
+    margin: -140px 250px;
+    font-size: 1.8em;
+    color: #000;
+    font-family: 'Delius Swash Caps', cursive;
+}
+#feature-head{
+    background-color: #778ca3;
+    color: #f3f3f3;
+    padding: 0.4em;
+    font-size: 3em;
+}
+#features{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    background-color: rgba(238, 238, 238, 0.97);
+    border-left: 2px solid #666;
+    padding-bottom: 20%;
+}
+#features ul li{
+    display: block;
+    padding: 10px 3em 10px 1.7em;
+    font-size: 1.5em;
+    color: #233140;
+}
+#features ul li:before{
+    content: "\e127";
+    font-family: 'Glyphicons Halflings';
+    font-size: 20px;
+    float: left;
+    margin-top: 2px;
+    margin-left: -37px;
+    color: #00ab2e;
+}
+
+#get-started-wrapper{
+    margin-top: 25%;
+}
+#get-started-wrapper span{
+    font-size: 3em;
+    background-color: #1BA39C;
+    border: 1px solid #0f5753;
+    color: #f2f2f2;
+    padding: 0.5em 2em;
+}
+#about-me-wrapper{
+    //background: url("../images/bg2.jpeg");
+    margin-top: 35%;
+    opacity: 0;
+}
+#about-me-head{
+    font-size: 4em;
+}
+#about-me-wrapper .student, .teacher{
+    font-size: 3em;
+    padding: 0.4em 0px;
+    margin: 1.5em 0px;
+}
+.teacher{
+    background-color: rgba(21, 127, 121, 0.7);
+    color: #f3f3f3;
+    border: 1px solid #188e88;
+    box-shadow: 2px 2px 10px 0px #878a87;
+}
+.student{
+    background-color: rgba(203, 101, 63, 0.7);
+    color: #f3f3f3;
+    border: 1px solid #e47147;
+    box-shadow: 2px 2px 10px 0px #878a87;
+}
+.student a, .teacher a{
+    all: unset;
+    cursor: pointer;
+}
+.teacher:hover{
+    background-color: rgb(26, 161, 168);
+}
+.student:hover{
+    background-color: rgb(213, 106, 66);
+}

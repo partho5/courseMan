@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
+body{
+    background-color: rgba(232, 234, 239, 0.88);
+}
+#left-box{
+//background-color: rgba(0, 86, 79, 0.14);
+}
+#middle-box{
+    background-color: rgba(250, 250, 250, 0.89);
+    border-left: 5px solid rgba(232, 234, 239, 0.88);;
+    border-right: 5px solid rgba(232, 234, 239, 0.88);;
+}
+#right-box{
+//background-color: rgba(150, 146, 59, 0.24);
+}
+
+#files{
+    font-size: 2.7em;
+    border-bottom: 1px solid #555;
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(to right, #cfc79c, rgba(220, 196, 108, 0.84));
+    color: #007497;
+    margin-top: 3px;
+}
+#files:hover{
+    background: linear-gradient(to right, rgba(220, 196, 108, 0.84), rgba(220, 196, 108, 0.84));
+    text-decoration: none;
+}
+#files a{
+    all:unset;
+    cursor: pointer;
+}
+#files:hover #files a{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+.first-letter{
+    font-size: 1.4em;
+}
+#notice-container{
+    margin-top: 1em;
+    font-family: 'Rajdhani', sans-serif;
+}
+#notice-container h3 a{
+    all:unset;
+    font-size: 2em;
+    cursor: pointer;
+    color: #ededed;
+}
+#notice-container h3{
+    background-color: #6d8095;
+}
+#notice-container h3:hover{
+    color: #fff;
+}
+#notice-container .single-notice-wrapper{
+    background-color: rgba(255, 255, 255, 0.87);
+    font-size: 1.2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0.5em 0.7em;
+    margin: 5px 3px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+}
+#notice-container .course-title{
+    font-size: 0.8em;
+    font-family: Raleway, sans-serif;
+    font-style: italic;
+    color: #2d6f6d;
+}
+.notice-publish-time, .post-time, .commenter-time{
+    color: #757575;
+    font-size: 0.8em;
+}
+.notice-details-box{
+    content:'';
+    display:none;
+    position:absolute;
+    z-index: 50;
+    top: -10px;
+    width: 300px;
+    height: auto;
+    padding: 0.4em;
+    left:50px;
+    background-color: #c9d5cf;
+    color: #000;
+    border: 1px solid #89918d;
+}
+.notice-details-btn{
+    cursor: pointer;
+    color: #0575b5;
+}
+.notice-details-btn:hover ~ .notice-details-box{
+    display: inline-block;
+}
+#all-courses-wrapper{
+    margin-top: -1.2em;
+}
+#all-courses-wrapper h3{
+    background-color: #6d8095;
+    font-family: 'Rajdhani', sans-serif;
+}
+#all-courses-wrapper h3 a{
+    all:unset;
+    font-size: 2em;
+    cursor: pointer;
+    color: #ededed;
+}
+#all-courses-wrapper .single-course-wrapper{
+    background-color: rgba(249, 249, 249, 0.95);
+    font-size: 1.2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+    border: 1px solid #d6d6d6;
+}
+.single-course-wrapper .course-name{
+    padding: 0.3em;
+    font-weight: bold;
+}
+.single-course-wrapper .course-code{
+    padding: 0.3em;
+}
+.course-action-btn{
+    margin-bottom: 10px;
+}
+#about-current-course{
+    border-bottom: 2px solid rgb(77, 175, 124);
+//background-color: rgba(84, 190, 135, 0.08);
+}
+#about-current-course h2{
+    margin-top: 8px;
+    color: #0094b2;
+}
+#about-current-course .course-code{
+    color: #0089b2;
+    font-size: 1.5em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+#thread-wrapper{
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+.single-post-wrapper{
+    margin-bottom: 20px;
+    //border-bottom: 3px solid #ff6400;
+}
+.post-body-wrapper{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #9c9c9c;
+}
+.post-body-wrapper .post-head{
+    background-color: rgba(56, 118, 120, 0.13);
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(62, 131, 133);
+}
+.post-body-wrapper .post-content{
+    padding: 0 10px;
+}
+.single-comment-wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.comment-content-wrapper{
+    border: 1px solid #dcdcdc;
+}
+.comment-content{
+    padding: 5px;
+}
+.comment-head{
+    background-color: #e8e8e8;
+    padding-left: 5px;
+    border-bottom: 1px solid #b9b9b9;
+}
+.commenter-time{
+    margin-left: 2em;
+}
+.commenter-profile-info{
+    position: absolute;
+    width: 250px;
+    top: 30px;
+    left: 40px;
+    background-color: #f2f2f2;
+    border: 1px solid #a5a5a5;
+    padding: 0.4em;
+    box-shadow: 10px 10px 10px -5px rgba(178, 178, 178, 0.71);
+    z-index: 3;
+    display: none;
+}
+.commenter-profile-info .loading-text{
+    color: #018515;
+}
+.commenter-name:hover ~ .commenter-profile-info{
+    display: inline-block;
+}
+.commenter-profile-info:before{
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    position:absolute;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom:8px solid #b9b9b9;
+    top:-8px;
+    left:40px;
+}
+
+.comment-field{
+    margin-bottom: 10px;
+    border: 1px solid #ff8500;
+}
+.comment-field textarea{
+    border-radius: 0;
+}
+.comment-btn-wrapper{
+    margin-top: 1em;
+}
+/* arrow bounce */
+.arrow {
+    text-align: center;
+    margin: 5% 0;
+
+    color: #fff;
+    background-color: #ff8500;
+    position: absolute;
+    left: 60%;
+    top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top: 3px;
+}
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }
+}
+/* arrow bounce */

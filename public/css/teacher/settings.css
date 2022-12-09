@@ -1,0 +1,29 @@
+
+body{
+    background-color: #ededed;
+}
+h2{
+    color: #0074b6;
+
+}
+.auth-code{
+    font-size: 1.5em;
+}
+.font-color-1{
+    color: #6e7572;
+}
+.join-token{
+    color: #262626;
+    background-color: #fcffa5;
+    border: 1px solid #0e5f68;
+    padding: 0 0.2em;
+}
+.joint-token-wrapper, .pp-upload-wrapper{
+    margin-top: 1em;
+    background-color: #fff;
+    border: 1px solid #cdd9d3;
+    padding: 1em 0;
+}
+.pp{
+
+}

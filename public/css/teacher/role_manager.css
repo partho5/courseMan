@@ -1,0 +1,40 @@
+
+
+body{
+    background-color: rgba(249, 249, 249, 0.87);
+}
+
+h2{
+    font-family:'Roboto';
+}
+.single-user-wrapper{
+    background-color: #eeeeee;
+    border: 1px solid rgba(200, 200, 200, 0.64);
+    border-radius: 5px;
+    padding: 0.6em;
+    margin: 1em;
+    font-family: 'Nunito', sans-serif;
+}
+.single-user-wrapper .pp{
+    height: 100px;
+    width: 100px;
+}
+.single-user-wrapper .name{
+    font-size: 1.5em;
+    color: #171717;
+}
+.single-user-wrapper .join-time{
+    color: #858585;
+}
+.role-update-msg{
+    position: absolute;
+    top: -500%;
+    opacity: 0;
+    left: 30%;
+    z-index: 5;
+    background-color: #00a9c4;
+    color: #fff;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    border: 1px solid #00899f;
+}

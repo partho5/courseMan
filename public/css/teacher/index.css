@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+#institute-intro #about-me{
+    position: absolute;
+    left: 0px;
+    padding-left: 1em;
+}
+#about-me .pp{
+    width: 60px;
+    height: 60px;
+    padding-top: 0.1em;
+}
+#about-me .name, .designation{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
+#about-me .name a{
+    text-decoration: none;
+    color: #000;
+}
+#about-me .name a:hover{
+    color: #1f0fca;;
+    text-decoration: underline;
+}
+.designation{
+    margin-top: -12px;
+    color: #313131;
+}
+#change-institution-btn{
+    position: absolute;
+    right: 30%;
+    top: -5em;
+    font-size: 0.7em;
+    font-family:'Roboto',sans-serif;
+    background-color: rgba(242, 120, 75, 0.95);
+    border: 1px solid #a65333;
+    box-shadow: 2px 5px 10px 0px #818181;
+    color: #fff;
+    padding: 0.6em 1em;
+    opacity: 0;
+}
+#change-institution-btn:hover{
+    background-color: rgb(228, 111, 59);
+}
+#change-institution-btn a{
+    all: unset;
+    cursor: pointer;
+}
+#institute-intro .dept-name{
+    cursor: pointer;
+}
+
+
+.box{
+    color: #646464;
+    font-size: 20px;
+}
+.box h2, h3,h4{
+    font-family: 'Rajdhani', sans-serif;
+}
+#box1{
+    background-color: #edeff4;
+    border-right: 1px solid #0c5460;
+    color: #000;
+}
+#box1{
+    position: relative;
+}
+#notice-publish-loader{
+    position: absolute;
+    background-color: #95A5A6;
+    color: #eeeeee;
+    width: 80%;
+    height: auto;
+    z-index: 3;
+    left: 10%;
+    top: -50%;
+    padding: 2em 0px;
+    font-size: 1.5em;
+    box-shadow: 10px 10px 10px rgb(217, 217, 217);
+    border: 2px solid #687374;
+    font-family: 'Itim', cursive;
+    display: none;
+    opacity: 0;
+}
+#published-msg{
+    color: #00b32e;
+}
+#notice-publish-loader .glyphicon-remove{
+    color: #e80000;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+}
+#notice-publish-loader .glyphicon-remove:hover{
+    background-color: #e80000;
+    color: #f3f3f3;
+    font-size: 0.8em;
+    transition: 0.3s;
+}
+#box1 h2{
+    text-shadow: 1px 1px #fff;
+    background-color: #778ca3;
+    color: #f8f8f8;
+}
+#notice-upload-file-bar{
+    background-color: #00a12b;
+    font-size: 0.5em;
+    margin-top: 4px;
+    visibility: hidden;
+}
+#publish-notice{
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.4em;
+}
+#publish-notice:hover{
+    border-radius: 0px;
+}
+#box2{
+    background-color: rgba(152, 152, 152, 0.18);
+}
+#box2 .plate-wrapper{
+    margin-top: 1em;
+}
+#box2 .plate1{
+    background: linear-gradient(to right, #cfc79c, rgba(220, 196, 108, 0.84));
+    color: #007497;
+}
+#box2 .plate .first-letter{
+    font-size: 1.4em;
+}
+#box2 .plate1:hover{
+    background: linear-gradient(to right, rgba(220, 196, 108, 0.84), rgba(220, 196, 108, 0.84));
+    text-decoration: none;
+}
+#box2 .plate1:hover h3, .plate2:hover h3{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+#box2 .plate2{
+    background: linear-gradient(to right, #7dc8c5, #5baba7);
+    color: #000;
+}
+#box2 .plate2:hover{
+    background: linear-gradient(to right, #7dc8c5, #7dc8c5);
+    transition: 0.4s;
+    text-decoration: none;
+}
+#box2 h3{
+    padding: 12px 0px;
+}
+#my-courses-wrapper h4{
+    margin-top: 1em;
+    background-color: #778ca3;
+    color: #f8f8f8;
+    padding: 0.5em 0px;
+    font-size: 1.2em;
+}
+#my-courses-wrapper .single-course-wrapper{
+    background-color: rgba(225, 218, 183, 0.63);
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    box-shadow: 2px 2px 2px #d3d3d3;
+    margin-bottom: 10px;
+}
+#my-course-heading{
+    position: relative;
+}
+#add-course{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    color: #f3ebc6;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+#add-course:hover{
+    color: #e8e293;
+}
+#add-course:hover .glyphicon-plus{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transition:0.4s;
+}
+
+.course-name{
+    color: #292929;
+}
+.course-student-num{
+    color: #00798f;
+}
+.course-edit-btn, .course-delete-btn, .course-statistics, .course-assignment, .course-syllabus, .course-routine{
+    font-size: 0.8em;
+    padding: 0px 10px;
+}
+.course-edit-btn:hover{
+    color: #eda400;
+}
+.course-delete-btn:hover{
+    color: #f00;
+}
+.course-statistics:hover{
+    color: #00c334;
+}
+.course-assignment:hover{
+    color: #c300b3;
+}
+.course-syllabus{
+    color: #000;
+}
+.course-routine{
+    color: #009cb8;
+}
+.course-edit-btn:hover, .course-delete-btn:hover, .course-statistics:hover, .course-assignment:hover,
+.course-syllabus:hover, .course-routine:hover{
+    font-size: 1em;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.course-presentation:hover{
+    width: 22px;
+    height: 22px;
+    transition: 0.3s;
+}
+#box1 h2:hover, #box2 h2:hover{
+    //text-shadow: 1px 2px #fff;
+}
+#box1 h2, #box2 h2{
+    font-size: 40px;
+}
+.box .posted-by{
+    font-size: 0.8em;
+    color: #005cbf;
+    font-family: 'Raleway', sans-serif;
+}
+.box .posted-at{
+    font-size: 0.7em;
+    color: #9a9a9a;
+}
+.box .all-post-by{
+    font-size: 0.7em;
+    color: #a86e00;
+}
+#notification-wrapper{
+    font-family: 'Josefin Slab', serif;
+}
+#notification-wrapper input, textarea{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#course-names-wrapper{
+    margin-bottom: 1em;
+}
+#course-names-wrapper .single-course-name{
+    //margin-right: 2em;
+}
+#notification-wrapper .posted-at, .all-post-by{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#notification-wrapper ul li:hover{
+    border: 1px solid rgba(223, 223, 223, 0.42);
+    background-color: #f0f0f0;
+    box-shadow: 7px 7px 15px rgba(85, 85, 85, 0.56);
+    transition: 0.4s;
+}
+#notice-details-field{
+    background-color: rgba(250, 250, 250, 0.91);
+}
+#notice-details-field:hover{
+    background-color: #fff;
+    border-radius: 0px;
+    border: 1px solid #484848;
+    transition: 0.3s;
+}
+#academic-session:hover, #select-course:hover{
+    border-radius: 0px;
+    border: 1px solid #484848;
+    color: #106d7d;
+    background-color: rgba(243, 238, 173, 0.89);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faded-text{
+    color: #929292;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+
+#container{
+    background-color: #d4d4d4;
+}
+#select-batch-wrapper, #roll-no-wrapper{
+    background-color: rgba(251, 251, 251, 0.89);
+    border: 2px solid #fff;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+h2{
+    color: #0074b6;
+
+}
+.single-batch{
+    color: #000;
+    margin-top: 0.3em;
+    font-size: 1.4em;
+}
+.instruction1{
+    font-size: 1.2em;
+    color: #808080;
+}

@@ -1,0 +1,50 @@
+
+
+#left-bar{
+    border-right: 2px solid #d7d7d7;
+}
+.left-menu-item{
+    font-size: 1.2em;
+    padding: 0.5em;
+    color: #000;
+    cursor: pointer;
+}
+.left-menu-item:hover{
+    background-color: #f1f1f1;
+}
+.left-menu-item .glyphicon{
+    font-size: 1.3em;
+    color: #6f8298;
+    padding: 0px 10px;
+}
+.directory, .file-wrapper{
+    margin: 5px;
+}
+.directory .dir-name, .file-wrapper .file-name{
+    font-size: 1.4em;
+    padding: 15px;
+}
+.directory .glyphicon-folder-open{
+    color: #efbb51;
+    font-size: 1.4em;
+}
+.glyphicon-list{
+    font-size: 1.2em;
+    padding-right: 20px;
+    visibility: hidden;
+}
+.dir-file-wrapper:hover .glyphicon-list{
+    visibility: visible;
+    color: #00d037;
+}
+.glyphicon-file{
+    color: #009aef;
+    font-size: 1.4em;
+}
+.dir-file-heading{
+    color: #9c9c9c;
+}
+.dir-file-wrapper:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
